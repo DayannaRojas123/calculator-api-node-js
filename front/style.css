@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Cute+Font&display=swap');
+* {
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Aboreto', cursive;
+}
+#footer {
+	text-align:center;
+	opacity:0.5;
+	width:100%;
+	position:fixed;
+	left:0px;
+	bottom:0px;
+}
+#titulo{
+	text-align:center;
+	margin: 80px;
+	margin-left: 8px;
+}
+#corazon {
+	width: 400px;
+	height: 400px;
+	transform: rotate(45deg);
+	background: red;
+	position: relative;
+	top: 80px;
+	left:465px;
+	justify-content: center;
+	box-shadow: red 5px 5px 20px;
+}
+#corazon:before, #corazon:after {
+	content: "";
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	background: red;
+	position: absolute;
+	box-shadow: red 5px 5px 20px;
+}
+#corazon:before {
+	top: 0;
+	left: -200px;
+}
+#corazon:after {
+	top: -200px;
+}
+.teclado{
+	font-family: 'Cute Font', cursive;
+	display: flex;
+	height: 70px;
+	width: 70px;
+	justify-content: center;
+	align-items: center;
+	font-size: 95px;
+	border-radius: 13em/3em;
+	box-shadow: rgb(107, 5, 5) 5px 5px 20px;
+}
+.teclado:active{
+	color: #B0A09D;
+}
+#display{
+	color: rgb(143, 144, 145);
+	margin-left: 445px;
+	align-items: center;
+	height: 100px;
+	width: 450px;
+	background-color:black;
+	position: relative;
+	margin-top: -390px;
+	border-radius: 80px 20px;
+	box-shadow: rgb(107, 5, 5) 5px 5px 20px;
+	padding: 10px;
+	font-size:80px;
+	justify-content: flex-end;
+}
+#esp1{
+	height: 70px;
+	width: 600px;
+	margin-top: 10px;
+	position: absolute;
+	margin-left: 330px;
+}
+#ac{
+	float: left;
+	margin-left: 530px;
+	position: relative;
+}
+#c{
+	float: right;
+	position: absolute;
+	margin-left: 390px;
+}
+#punto{
+	float: right;
+	position: absolute;
+	margin-left: 250px;
+}
+#mas{
+	float: right;
+	position: absolute;
+	margin-left: 110px;
+}
+#esp2{
+	height: 70px;
+	width: 530px;
+	margin-top: 90px;
+	position: absolute;
+	margin-left: 400px;
+}
+#e7{
+	float: left;
+	margin-left: 460px;
+	position: relative;
+}
+#e8{
+	float: right;
+	position: absolute;
+	margin-left: 320px;
+   /*+140*/
+}
+#e9{
+	float: right;
+	position: absolute;
+	margin-left: 180px;
+}
+#d{
+	float: right;
+	position: absolute;
+	margin-left: 40px;
+}
+#esp3{
+	height: 70px;
+	width: 420px;
+	margin-top: 170px;
+	position: absolute;
+	margin-left: 460px;
+}
+#e3{
+	float: left;
+	margin-left: 350px;
+	position: relative;
+}
+#e4{
+	float: right;
+	position: absolute;
+	margin-left: 260px;
+}
+#e5{
+	float: right;
+	position: absolute;
+	margin-left: 170px;
+}
+#e6{
+	float: right;
+	position: absolute;
+	margin-left: 80px;
+}
+#ex{
+	float: right;
+	position: absolute;
+	margin-left: -10px;
+}
+#esp4{
+	height: 70px;
+	width: 250px;
+	margin-top: 250px;
+	position: absolute;
+	margin-left: 545px;
+}
+#e0{
+	float: left;
+	margin-left: 195px;
+	position: relative;
+}
+#e1{
+	float: right;
+	position: absolute;
+	margin-left: 122px;
+}
+#e2{
+	float: right;
+	position: absolute;
+	margin-left: 49px;
+}
+#e-{
+	float: right;
+	position: absolute;
+	margin-left: -24px;
+}
+#esp5{
+	height: 70px;
+	width: 110px;
+	margin-top: 330px;
+	position: absolute;
+	margin-left: 610px;
+}
+#eigual{
+	margin-left: 20px;
+	position: absolute;
+}

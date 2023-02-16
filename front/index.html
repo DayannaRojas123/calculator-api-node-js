@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>calculadora 4000</title>
+      <meta name="author" content="Talento coex DR">
+      <meta name="description" content="diseño web con coex">
+      <meta name="keywords" content="aprende logica, html, css, javascript, bd, vue.js, laravel"/>
+      <title>DAYANNA ROJAS</title>
+      <link rel="stylesheet" href="./style.css">
+   </head>
+   <body>
+      <header id="header">
+         <h4 id="titulo">CALCULATOR 4000</h4>
+      </header>
+      <nav>
+      </nav>
+      <main>
+         <div id="corazon">
+         </div>
+         <input type="text" id="display"  class="teclado"></input>
+         <div id="esp1" class="espacios">
+            <div id="ac" onclick="borrartodo()" class="teclado">AC</div>
+            <div id="c"  onclick='borrar()' class="teclado">C</div>
+            <div id="punto" onclick="pantallatouch('.')" class="teclado">.</div>
+            <div id="mas" onclick="pantallatouch('+')" class="teclado">+</div>
+         </div>
+         <div id="esp2" class="espacios">
+            <div id="e7" onclick="pantallatouch(7)" class="teclado">7</div>
+            <div id="e8" onclick="pantallatouch(8)" class="teclado">8</div>
+            <div id="e9" onclick="pantallatouch(9)" class="teclado">9</div>
+            <div id="d" onclick="pantallatouch('/')" class="teclado">/</div>
+         </div>
+         <div id="esp3" class="espacios">
+            <div id="e3" onclick="pantallatouch(3)" class="teclado">3</div>
+            <div id="e4" onclick="pantallatouch(4)" class="teclado">4</div>
+            <div id="e5" onclick="pantallatouch(5)" class="teclado">5</div>
+            <div id="e6" onclick="pantallatouch(6)" class="teclado">6</div>
+            <div id="ex" onclick="pantallatouch('*')"class="teclado">*</div>
+         </div>
+         <div id="esp4" class="espacios">
+            <div id="e0" onclick="pantallatouch(0)" class="teclado">0</div>
+            <div id="e1" onclick="pantallatouch(1)" class="teclado">1</div>
+            <div id="e2" onclick="pantallatouch(2)" class="teclado">2</div>
+            <div id="e-" onclick="pantallatouch('-')"class="teclado">-</div>
+         </div>
+         <div id="esp5" class="espacios">
+            <div id="eigual" onclick='resultado()'class="teclado">=</div>
+         </div>
+      </main>
+      <footer>
+         <p  id="footer">
+            Desarollado por: &copy Dayanna Valentina Rojas Rey
+         </p>
+      </footer>
+      <script src="./main.js"></script>
+   </body>
+</html>
